@@ -38,7 +38,14 @@ p > span {
     background-color: aqua;
 }
 
+#contenuto-centrale{
+    height: 50px;
+}
+
 .contenuto > span {
-    
-   
+    margin-right: 200px;
+}
+
+#contenuto-centrale > span{
+    margin-right: 200px;
 }
