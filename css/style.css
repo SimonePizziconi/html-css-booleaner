@@ -30,11 +30,19 @@ h1 {
     margin-top: 40px;
 }
 
+a {
+    text-decoration: none;
+}
+
+.data{
+    color: #979797;
+}
+
 #descrizione-foto {
     margin-bottom: 40px;
 }
 
-#paragrafo{
+.paragrafo{
     margin-bottom: 40px;
 }
 
@@ -49,6 +57,7 @@ p > span {
 
 table{
     border-collapse: collapse;
+    margin-bottom: 30px;
 }
 
 th {
@@ -65,4 +74,41 @@ td{
 
 .cella{
     background-color: white;
+}
+
+/* css del footer */
+footer{
+    margin-left: 10px;
+}
+
+h4{
+    color: #979797;
+}
+
+#monitor{
+        margin-top: 10px;
+        background-image: url(../img/monitor.jpg);
+        background-repeat: no-repeat;
+        color: #FFFFFF;
+        text-align: left;
+        height: 200px;
+        width: 100%;
+        font-weight: bold;
+        padding-left: 10px;
+        padding-top: 10px;
+}
+
+#grafico{
+    margin-top: 10px;
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    text-align: left;
+    height: 200px;
+    width: 100%;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
 }
